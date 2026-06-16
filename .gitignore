@@ -1,0 +1,11 @@
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+.bundle/
+.bundle-user/
+.gem-spec-cache/
+vendor/
+server.out.log
+server.err.log
+rubyinstaller-*.exe

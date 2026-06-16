@@ -1,0 +1,60 @@
+---
+layout: default
+---
+<article class="article product-detail" style="--product-accent: {{ page.accent | default: site.data.brand.accent | default: '#4F7CFF' }}">
+  <header class="article-header container narrow">
+    <a class="back-link" href="{{ '/free/#premium-products' | relative_url }}">← Преміум продукти</a>
+    <p class="eyebrow product-detail-price">
+      {% if page.old_price %}<span class="old-price">{{ page.old_price }}</span>{% endif %}
+      <span class="current-price">{{ page.price }}</span>
+    </p>
+    <h1>{{ page.title }}</h1>
+    <p class="lead">{{ page.description }}</p>
+    <div class="button-row">
+      <a class="button primary" href="{{ page.payment_url }}">Перейти до оплати</a>
+      {% if page.screenshots %}
+        <button class="button accent product-preview-trigger" type="button" data-product-preview-open>Що всередині?</button>
+      {% endif %}
+      <a class="button secondary" href="{{ '/contact/' | relative_url }}">Поставити запитання</a>
+    </div>
+  </header>
+  <div class="article-body container narrow">
+    {{ content }}
+  </div>
+</article>
+
+{% if page.screenshots %}
+  <div class="product-preview-modal" data-product-preview-modal hidden>
+    <div class="product-preview-backdrop" data-product-preview-close></div>
+    <section class="product-preview-dialog" role="dialog" aria-modal="true" aria-labelledby="product-preview-title">
+      <button class="product-preview-close" type="button" data-product-preview-close aria-label="Закрити">×</button>
+      <div class="product-preview-copy">
+        <p class="eyebrow">Що всередині?</p>
+        <h2 id="product-preview-title">{{ page.title }}</h2>
+        <p>Кілька екранів зсередини продукту, щоб швидко зрозуміти формат, структуру та рівень практичності матеріалу.</p>
+      </div>
+      <div class="product-preview-slider" data-product-preview-slider>
+        {% for screenshot in page.screenshots %}
+          <figure class="product-preview-slide{% if forloop.first %} is-active{% endif %}" data-product-preview-slide>
+            <img src="{{ screenshot.image | relative_url }}" alt="{{ screenshot.title | default: page.title }}" loading="lazy" decoding="async">
+            <figcaption>
+              <strong>{{ screenshot.title | default: page.title }}</strong>
+              {% if screenshot.description %}<span>{{ screenshot.description }}</span>{% endif %}
+            </figcaption>
+          </figure>
+        {% endfor %}
+      </div>
+      {% if page.screenshots.size > 1 %}
+        <div class="product-preview-controls">
+          <button class="button secondary" type="button" data-product-preview-prev>Назад</button>
+          <span data-product-preview-counter>1 / {{ page.screenshots.size }}</span>
+          <button class="button secondary" type="button" data-product-preview-next>Далі</button>
+        </div>
+      {% endif %}
+      <div class="button-row product-preview-actions">
+        <a class="button primary" href="{{ page.payment_url }}">Перейти до оплати</a>
+        <button class="button secondary" type="button" data-product-preview-close>Повернутися</button>
+      </div>
+    </section>
+  </div>
+{% endif %}

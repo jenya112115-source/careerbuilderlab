@@ -1,0 +1,187 @@
+---
+layout: default
+title: "Career Builder Lab — LinkedIn, маркетинг і видимість"
+description: "Перетворюю експертизу на видимість, довіру та нові можливості через контент, персональний маркетинг та LinkedIn."
+---
+
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">Career Builder Lab</p>
+      <h1>Перетворюю експертизу на видимість, довіру та нові можливості.</h1>
+      <p class="lead">Допомагаю брендам та спеціалістам ставати помітними через контент, персональний маркетинг та LinkedIn. Актуальні практичні інструменти та підходи, які працюють на ринку прямо зараз.</p>
+      <div class="button-row">
+        <a class="button primary" href="{{ '/free/' | relative_url }}">Перейти в базу знань</a>
+        <a class="button secondary" href="{{ '/services/linkedin-visibility-audit/' | relative_url }}">Розібрати мій профіль</a>
+      </div>
+    </div>
+    <div class="hero-visual" aria-label="Портрет Євгенія Гребіненка">
+      <img src="{{ site.data.brand.profile_image | relative_url }}" alt="Євгеній Гребіненко, засновник Career Builder Lab">
+      <div class="signal-card">
+        <strong>Євгеній Гребіненко</strong>
+        <span>Засновник та CMO агенції MakeMoneyAgency</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container proof-grid">
+    <div class="proof-card">
+      <strong>1.5M+</strong>
+      <span>показів у LinkedIn</span>
+    </div>
+    <div class="proof-card">
+      <strong>Маркетинг</strong>
+      <span>8+ років у сфері маркетингу та digital</span>
+    </div>
+    <div class="proof-card">
+      <strong>Проекти</strong>
+      <span>30+ успішних проектів та досвід 8+ ніш</span>
+    </div>
+    <div class="proof-card">
+      <strong>Зароблено</strong>
+      <span>$1М+ для клієнтів протягом цього шляху</span>
+    </div>
+  </div>
+</section>
+
+<section class="section split-section">
+  <div class="container two-col">
+    <div>
+      <p class="eyebrow">Проблема ринку</p>
+      <h2>Чому більшість проектів залишаються невидимими</h2>
+    </div>
+    <div class="stack">
+      <p>Багато спеціалістів/проектів мають сильний досвід, але залишаються невидимими для ринку.</p>
+      <p>Хороші навички не гарантують нових можливостей. Якщо про вас не знають - роботодавці, клієнти та партнери проходять повз.</p>
+      <p>Саме тому сьогодні важливо не лише бути якісним, а й вміти правильно показувати і масштабно свою експертизу.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-heading">
+      <p class="eyebrow">Метод</p>
+      <h2>Мій підхід</h2>
+    </div>
+    <div class="method-grid">
+      <article>
+        <span>01</span>
+        <h3>Позиціонування</h3>
+        <p>Знаходимо, як ринок має сприймати вашу експертизу.</p>
+      </article>
+      <article>
+        <span>02</span>
+        <h3>Видимість</h3>
+        <p>Будуємо систему, через яку вас можуть знаходити.</p>
+      </article>
+      <article>
+        <span>03</span>
+        <h3>Контент</h3>
+        <p>Створюємо контент, який працює на вашу репутацію та можливості.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section muted">
+  <div class="container">
+    <div class="section-heading row-heading">
+      <div>
+        <p class="eyebrow">Послуги</p>
+        <h2>Три формати, з яких можна почати</h2>
+      </div>
+      <a class="text-link" href="{{ '/services/' | relative_url }}">Усі послуги</a>
+    </div>
+    <div class="card-grid">
+      {% assign services = site.services | sort: "order" %}
+      {% for service in services %}
+        {% if service.home_featured %}
+          <article class="card">
+            <p class="price-pill">{{ service.price }}</p>
+            <h3><a href="{{ service.url | relative_url }}">{{ service.title }}</a></h3>
+            <p>{{ service.description }}</p>
+          </article>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container two-col">
+    <div>
+      <p class="eyebrow">Експерименти</p>
+      <h2>Я не теоретик - я тестую на собі</h2>
+    </div>
+    <div class="stack">
+      <p>LinkedIn я вирішив вести публічно і поділитися результами. Більшість підходів, про які я пишу та розповідаю, я спочатку тестую на собі. Успіхи й провали будуть всередені.</p>
+      <a class="button secondary" href="{{ '/experiment/' | relative_url }}">Подивитися експерименти</a>
+    </div>
+  </div>
+</section>
+
+<section class="section muted">
+  <div class="container">
+    <div class="section-heading row-heading">
+      <div>
+        <p class="eyebrow">База знань</p>
+        <h2>Практичні матеріали для LinkedIn, кар'єри та видимості</h2>
+      </div>
+      <a class="text-link" href="{{ '/free/' | relative_url }}">Усі матеріали</a>
+    </div>
+    <div class="card-grid knowledge-grid">
+      {% assign resources = site.resources | sort: "order" %}
+      {% for resource in resources limit:3 %}
+        <article class="card knowledge-card clickable-card">
+          <a class="card-hit" href="{{ resource.url | relative_url }}" aria-label="{{ resource.card_title | default: resource.title }}"></a>
+          {% if resource.card_image %}
+            <img class="card-cover" src="{{ resource.card_image | relative_url }}" alt="">
+          {% else %}
+            <div class="card-visual material-visual">{{ resource.visual_label | default: resource.card_title | default: resource.title }}</div>
+          {% endif %}
+          <p class="eyebrow">{{ resource.type }}</p>
+          <h3><a href="{{ resource.url | relative_url }}">{{ resource.card_title | default: resource.title }}</a></h3>
+          <p>{{ resource.description }}</p>
+          <span class="text-link card-more">Відкрити матеріал</span>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-heading row-heading">
+      <div>
+        <p class="eyebrow">Преміум продукти</p>
+        <h2>Преміум матеріали для тих, хто хоче ЗРОСТАТИ ШВИДШЕ</h2>
+      </div>
+      <a class="text-link" href="{{ '/free/#premium-products' | relative_url }}">Подивитися усі</a>
+    </div>
+    <div class="card-grid premium-grid">
+      {% assign products = site.products | sort: "order" %}
+      {% for product in products limit:3 %}
+        <article class="card product-card" style="--product-accent: {{ product.accent }}">
+          {% if product.card_image %}
+            <img class="card-cover" src="{{ product.card_image | relative_url }}" alt="">
+          {% else %}
+            <div class="card-visual product-visual">
+              <strong>{{ product.price }}</strong>
+            </div>
+          {% endif %}
+          <p class="price-pill">
+            {% if product.old_price %}<span class="old-price">{{ product.old_price }}</span>{% endif %}
+          </p>
+          <h3><a href="{{ product.url | relative_url }}">{{ product.title }}</a></h3>
+          <p>{{ product.description }}</p>
+          <a class="button secondary" href="{{ product.url | relative_url }}">Детальніше</a>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% include cta.html %}

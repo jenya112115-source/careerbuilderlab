@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<article class="article">
+  <header class="article-header container narrow">
+    <a class="back-link" href="{{ '/free/' | relative_url }}">← База знань</a>
+    <p class="eyebrow">{{ page.type | default: "Матеріал" }}</p>
+    <h1>{{ page.title }}</h1>
+    <p class="lead">{{ page.description }}</p>
+  </header>
+  <div class="article-body container narrow">
+    {{ content }}
+
+    <aside class="related-materials">
+      <h2>Вам також може допомогти</h2>
+      <div class="related-grid">
+        {% assign related = site.resources | sort: "order" %}
+        {% for item in related %}
+          {% if item.url != page.url %}
+            <a class="related-card" href="{{ item.url | relative_url }}">
+              <span>{{ item.type }}</span>
+              <strong>{{ item.card_title | default: item.title }}</strong>
+            </a>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </aside>
+  </div>
+</article>

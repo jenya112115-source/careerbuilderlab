@@ -1,0 +1,34 @@
+---
+layout: page
+permalink: /blog/
+title: "Блог"
+description: "Статті, розбори і практичні матеріали про видимість, маркетинг, LinkedIn та цифрові продукти."
+---
+
+<section class="section">
+  <div class="container">
+    <div class="section-heading centered">
+      <p class="eyebrow">Статті</p>
+      <h2>Практичні матеріали та SEO-розбори</h2>
+    </div>
+    <div class="blog-list">
+      {% for post in site.posts %}
+        <article class="post-preview{% if post.draft_notice %} soon-card blog-draft-preview{% endif %}">
+          <p class="eyebrow">{{ post.date | date: "%d.%m.%Y" }}{% if post.type %} · {{ post.type }}{% elsif post.category %} · {{ post.category }}{% endif %}</p>
+          {% if post.draft_notice %}
+            <p class="soon-label">Дописую. Скоро опублікую</p>
+            <div class="blurred-content" aria-hidden="true">
+              <h2>{{ post.title }}</h2>
+              <p>{{ post.description }}</p>
+              <span class="text-link">Читати</span>
+            </div>
+          {% else %}
+            <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+            <p>{{ post.description }}</p>
+            <a class="text-link" href="{{ post.url | relative_url }}">Читати</a>
+          {% endif %}
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,94 @@
+title: Career Builder Lab
+description: "Career Builder Lab — практична платформа про LinkedIn, персональний маркетинг, контент і видимість від Євгенія Гребіненка."
+url: "https://firstchoice.qzz.io"
+baseurl: ""
+lang: uk
+timezone: Europe/Kyiv
+
+author:
+  name: "Євгеній Гребіненко"
+  title: "Стратег персонального маркетингу"
+  linkedin: "https://www.linkedin.com/in/evhenii-hrebinenko-412610251/"
+  email: "hello@example.com"
+
+collections:
+  services:
+    output: true
+    permalink: /services/:name/
+  resources:
+    output: true
+    permalink: /free/:name/
+  products:
+    output: true
+    permalink: /products/:name/
+  experiments:
+    output: true
+    permalink: /experiment/:name/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+      locale: uk
+      image: /assets/images/og_cbl_image.webp
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      author: "Євгеній Гребіненко"
+      permalink: /blog/:title/
+  - scope:
+      path: ""
+      type: services
+    values:
+      layout: service
+  - scope:
+      path: ""
+      type: resources
+    values:
+      layout: resource
+  - scope:
+      path: ""
+      type: products
+    values:
+      layout: product
+  - scope:
+      path: ""
+      type: experiments
+    values:
+      layout: experiment
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - rubyinstaller-devkit-3.3.11-1-x64.exe
+  - .bundle
+  - .bundle-user
+  - .gem-spec-cache
+  - .ruby
+  - node_modules
+  - scripts
+  - server.out.log
+  - server.err.log
+  - "*.pdf"
+  - ssi-plan-30-days.md
+  - job-search-2026-fixed.md
+  - linkedin-algorithm-views-leads-fixed.md
+  - linkedin-specialist-profile-thinking.md
+  - one-million-views-linkedin.md
+  - experiment.md
+  - banks_1.md
+  - assets/images/profile.png
+  - _products/*.webp
+  - vendor

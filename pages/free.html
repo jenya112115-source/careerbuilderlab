@@ -1,0 +1,60 @@
+---
+layout: page
+permalink: /free/
+title: "База знань"
+description: "Матеріали про LinkedIn, алгоритми, видимість, пошук роботи, контент і персональний маркетинг."
+---
+
+<section class="section">
+  <div class="container">
+    <div class="section-heading centered">
+      <p class="eyebrow">Матеріали</p>
+      <h2>Практичні розбори та гайди</h2>
+    </div>
+    <div class="card-grid knowledge-grid">
+      {% assign resources = site.resources | sort: "order" %}
+      {% for resource in resources %}
+        <article class="card knowledge-card">
+          {% if resource.card_image %}
+            <img class="card-cover" src="{{ resource.card_image | relative_url }}" alt="">
+          {% else %}
+            <div class="card-visual material-visual">{{ resource.visual_label | default: resource.card_title | default: resource.title }}</div>
+          {% endif %}
+          <p class="eyebrow">{{ resource.type }}</p>
+          <h2><a href="{{ resource.url | relative_url }}">{{ resource.card_title | default: resource.title }}</a></h2>
+          <p>{{ resource.description }}</p>
+          <a class="button secondary" href="{{ resource.url | relative_url }}">Читати</a>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section muted" id="premium-products">
+  <div class="container">
+    <div class="section-heading centered">
+      <p class="eyebrow">Преміум продукти</p>
+      <h2>ПРЕМІУМ ПРОДУКТИ</h2>
+    </div>
+    <div class="card-grid premium-grid">
+      {% assign products = site.products | sort: "order" %}
+      {% for product in products %}
+        <article class="card product-card" style="--product-accent: {{ product.accent }}">
+          {% if product.card_image %}
+            <img class="card-cover" src="{{ product.card_image | relative_url }}" alt="">
+          {% else %}
+            <div class="card-visual product-visual">
+              <strong>{{ product.price }}</strong>
+            </div>
+          {% endif %}
+          <p class="price-pill">
+            {% if product.old_price %}<span class="old-price">{{ product.old_price }}</span>{% endif %}
+          </p>
+          <h2><a href="{{ product.url | relative_url }}">{{ product.title }}</a></h2>
+          <p>{{ product.description }}</p>
+          <a class="button secondary" href="{{ product.url | relative_url }}">Детальніше</a>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>

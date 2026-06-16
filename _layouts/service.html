@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<article class="service-detail">
+  <header class="page-hero">
+    <div class="container narrow">
+      <a class="back-link" href="{{ '/services/' | relative_url }}">← Усі послуги</a>
+      <p class="eyebrow">{{ page.audience_label | default: page.price }}</p>
+      <h1>{{ page.title }}</h1>
+      <p class="lead">{{ page.description }}</p>
+      <div class="button-row">
+        <a class="button primary" href="{{ '/contact/' | relative_url }}">Обговорити запит</a>
+        <a class="button secondary" href="{{ site.data.brand.linkedin }}" target="_blank" rel="noopener">Написати в LinkedIn</a>
+      </div>
+    </div>
+  </header>
+  <div class="container detail-grid">
+    <aside class="detail-aside">
+      <p class="eyebrow">Формат</p>
+      <p>{{ page.format | default: "Індивідуальна робота" }}</p>
+      <p class="eyebrow">Ціна</p>
+      <p class="price">{{ page.price }}</p>
+    </aside>
+    <div class="article-body">
+      {{ content }}
+    </div>
+  </div>
+</article>
+{% include cta.html %}

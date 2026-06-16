@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<article class="article">
+  <header class="article-header container narrow">
+    <a class="back-link" href="{{ '/blog/' | relative_url }}">← До блогу</a>
+    <p class="eyebrow">{{ page.category | default: "Блог" }}</p>
+    <h1>{{ page.title }}</h1>
+    <p class="lead">{{ page.description }}</p>
+    <div class="article-meta">
+      <span>{{ page.date | date: "%d.%m.%Y" }}</span>
+      <span>{{ page.author }}</span>
+      {% if page.reading_time %}<span>{{ page.reading_time }}</span>{% endif %}
+    </div>
+  </header>
+  {% if page.draft_notice %}
+    <div class="container narrow">
+      <div class="soon-panel">
+        <p class="soon-label">Дописую</p>
+        <h2>Скоро опублікую</h2>
+        <p>Матеріал уже в роботі. Повернеться сюди після фінального редагування.</p>
+      </div>
+    </div>
+  {% endif %}
+  <div class="article-body container narrow{% if page.draft_notice %} blurred-content{% endif %}">
+    {{ content }}
+  </div>
+</article>
+{% include cta.html %}

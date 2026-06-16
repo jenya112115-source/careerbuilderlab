@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1125" role="img" aria-labelledby="title desc">
+  <title id="title">Professional profile placeholder</title>
+  <desc id="desc">Abstract editorial portrait placeholder for Career Builder Lab.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0B1020"/>
+      <stop offset=".54" stop-color="#142349"/>
+      <stop offset="1" stop-color="#4F7CFF"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0" stop-color="#00D4FF"/>
+      <stop offset="1" stop-color="#7A5CFF"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1125" fill="url(#bg)"/>
+  <circle cx="450" cy="382" r="148" fill="#F4F7FB" opacity=".92"/>
+  <path d="M206 945c34-206 146-319 244-319s210 113 244 319" fill="#F4F7FB" opacity=".92"/>
+  <path d="M92 128h716v869H92z" fill="none" stroke="#F4F7FB" stroke-opacity=".2" stroke-width="2"/>
+  <path d="M154 182h266M154 228h176M154 934h390" stroke="url(#accent)" stroke-width="16" stroke-linecap="round"/>
+  <text x="154" y="860" fill="#F4F7FB" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="700">Replace with photo</text>
+</svg>

@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<article class="article">
+  <header class="article-header container narrow">
+    <a class="back-link" href="{{ '/experiment/' | relative_url }}">← Усі експерименти</a>
+    <p class="eyebrow">{{ page.status | default: "Експеримент" }}</p>
+    <h1>{{ page.title }}</h1>
+    <p class="lead">{{ page.description }}</p>
+  </header>
+  <div class="article-body container experiment-container">
+    {{ content }}
+  </div>
+</article>

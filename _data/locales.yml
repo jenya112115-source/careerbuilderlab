@@ -1,0 +1,8 @@
+uk:
+  name: "Українська"
+  direction: "ltr"
+  default: true
+en:
+  name: "English"
+  direction: "ltr"
+  default: false

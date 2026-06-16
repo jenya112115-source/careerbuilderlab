@@ -1,0 +1,18 @@
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a class="brand footer-brand" href="{{ '/' | relative_url }}">
+        <span class="brand-mark">CBL</span>
+        <span class="brand-text">
+          <strong>{{ site.data.brand.name }}</strong>
+          <small>{{ site.data.brand.tagline }}</small>
+        </span>
+      </a>
+    </div>
+    <div class="footer-links">
+      <a href="{{ site.data.brand.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+    <p class="footer-note">© {{ 'now' | date: '%Y' }} {{ site.data.brand.name }}. Практика, позиціонування і видимість для спеціалістів та проєктів.</p>
+  </div>
+</footer>
+<script src="{{ '/assets/js/main.js' | relative_url }}"></script>
