@@ -1154,16 +1154,19 @@ h3 {
 }
 
 .cta-band {
-  background: var(--text);
-  color: var(--bg);
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--blue) 16%, transparent), transparent 58%),
+    color-mix(in srgb, var(--cyan) 9%, var(--surface-muted));
+  color: var(--text);
+  border-block: 1px solid color-mix(in srgb, var(--cyan) 28%, var(--border));
 }
 
 .cta-band .eyebrow {
-  color: var(--cyan);
+  color: var(--blue);
 }
 
 .cta-band p {
-  color: color-mix(in srgb, var(--bg) 82%, transparent);
+  color: var(--text-muted);
 }
 
 .cta-inner {
@@ -1171,6 +1174,167 @@ h3 {
   grid-template-columns: 1fr auto;
   gap: 2rem;
   align-items: center;
+}
+
+.post-ideas-resource .narrow {
+  max-width: 940px;
+}
+
+.ideas-toc,
+.ideas-keypoints,
+.ideas-intro-block,
+.ideas-category,
+.ideas-final-cta {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: 0 14px 36px rgba(15, 23, 42, .06);
+}
+
+.ideas-toc {
+  margin: 2rem 0;
+  padding: clamp(1.1rem, 3vw, 1.6rem);
+}
+
+.ideas-toc h2 {
+  margin-bottom: 1rem;
+  font-size: clamp(1.45rem, 3vw, 2.15rem);
+}
+
+.ideas-toc-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: .65rem;
+}
+
+.ideas-toc-grid a {
+  padding: .75rem .85rem;
+  border: 1px solid color-mix(in srgb, var(--cyan) 28%, var(--border));
+  border-radius: var(--radius);
+  background: color-mix(in srgb, var(--cyan) 9%, var(--surface));
+  color: var(--text);
+  font-weight: 800;
+  line-height: 1.25;
+  text-decoration: none;
+}
+
+.ideas-keypoints {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: .8rem;
+  margin: 2rem 0;
+  padding: .8rem;
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--blue) 12%, transparent), transparent 70%),
+    var(--surface);
+}
+
+.ideas-keypoints div {
+  min-height: 112px;
+  display: grid;
+  align-content: space-between;
+  padding: 1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: color-mix(in srgb, var(--surface-muted) 64%, var(--surface));
+}
+
+.ideas-keypoints strong {
+  color: var(--text);
+  font-size: clamp(1.25rem, 2.4vw, 1.8rem);
+  line-height: 1;
+}
+
+.ideas-keypoints span {
+  color: var(--text-muted);
+}
+
+.ideas-intro-block,
+.ideas-category,
+.ideas-final-cta {
+  margin: 2rem 0;
+  padding: clamp(1.1rem, 3vw, 1.8rem);
+}
+
+.ideas-problem {
+  border-color: color-mix(in srgb, var(--violet) 38%, var(--border));
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--violet) 12%, transparent), transparent 72%),
+    var(--surface);
+}
+
+.ideas-category {
+  border-top: 4px solid var(--cyan);
+}
+
+.ideas-category:nth-of-type(3n) {
+  border-top-color: var(--blue);
+}
+
+.ideas-category:nth-of-type(3n + 1) {
+  border-top-color: var(--violet);
+}
+
+.ideas-category > h2 {
+  margin-top: 0;
+  padding-bottom: .85rem;
+  border-bottom: 1px solid var(--border);
+  font-size: clamp(1.55rem, 3vw, 2.35rem);
+}
+
+.ideas-category h3 {
+  margin-top: 1.75rem;
+  color: var(--text);
+}
+
+.idea-topic {
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 1px solid color-mix(in srgb, var(--cyan) 30%, var(--border));
+  border-radius: var(--radius);
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--cyan) 8%, transparent), transparent 64%),
+    color-mix(in srgb, var(--surface-muted) 32%, var(--surface));
+}
+
+.idea-topic:nth-of-type(2n) {
+  border-color: color-mix(in srgb, var(--blue) 30%, var(--border));
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--blue) 7%, transparent), transparent 64%),
+    color-mix(in srgb, var(--surface-muted) 28%, var(--surface));
+}
+
+.idea-topic h4 {
+  margin: 0 0 .7rem;
+  font-size: clamp(1.05rem, 2vw, 1.28rem);
+  line-height: 1.25;
+}
+
+.idea-number {
+  display: inline-flex;
+  margin-right: .25rem;
+  color: var(--cyan);
+  font-weight: 900;
+}
+
+.idea-topic ul {
+  margin: .6rem 0 0;
+  padding-left: 1.1rem;
+}
+
+.idea-topic-compact h4 {
+  margin-bottom: 0;
+}
+
+.ideas-final-cta {
+  border-color: color-mix(in srgb, var(--blue) 40%, var(--border));
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--blue) 14%, transparent), transparent 70%),
+    var(--surface);
+}
+
+.ideas-final-cta h2 {
+  margin-top: 0;
 }
 
 .site-footer {
@@ -1252,7 +1416,9 @@ h3 {
   .card-grid,
   .method-grid,
   .contact-grid,
-  .metric-strip {
+  .metric-strip,
+  .ideas-toc-grid,
+  .ideas-keypoints {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -1298,7 +1464,9 @@ h3 {
   .card-grid,
   .method-grid,
   .contact-grid,
-  .metric-strip {
+  .metric-strip,
+  .ideas-toc-grid,
+  .ideas-keypoints {
     grid-template-columns: 1fr;
   }
 
