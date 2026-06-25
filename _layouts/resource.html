@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<article class="article">
+<article class="article{% if page.resource_class %} {{ page.resource_class }}{% endif %}">
   <header class="article-header container narrow">
     <a class="back-link" href="{{ '/free/' | relative_url }}">← База знань</a>
     <p class="eyebrow">{{ page.type | default: "Матеріал" }}</p>
