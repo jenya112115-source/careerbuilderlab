@@ -1,0 +1,128 @@
+---
+layout: default
+---
+{% assign pay_url = page.payment_url | default: '#' %}
+
+<article class="full-access-page" style="--product-accent: {{ page.accent | default: '#00A6C8' }}">
+  <header class="full-access-hero">
+    <div class="container full-access-hero-grid">
+      <div class="full-access-hero-copy">
+        <a class="back-link" href="{{ '/free/#premium-products' | relative_url }}">← Преміум продукти</a>
+        <p class="eyebrow">Повна екосистема LinkedIn</p>
+        <h1>{{ page.title }}</h1>
+        <h2>{{ page.subtitle }}</h2>
+        <p>{{ page.description }}</p>
+        <p class="full-access-gift-line">Плюс LinkedIn Premium на 60 днів у подарунок.</p>
+        <a class="button primary full-access-gradient-button" href="{{ pay_url }}">Отримати повний доступ</a>
+      </div>
+      <div class="full-access-hero-panel" aria-label="Коротко про продукт">
+        <span>База знань</span>
+        <strong>5 продуктів</strong>
+        <span>AI-інструменти, системи, бонуси та оновлення</span>
+      </div>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <div class="premium-gift-card">
+        <p class="eyebrow">У подарунок</p>
+        <h2>LinkedIn Premium</h2>
+        <h3>60 днів безкоштовно</h3>
+        <p>Якщо оформлювати окремо — <strong>12 181 грн / 2 місяці</strong>.</p>
+        <p>Отримайте всередині клубу абсолютно безкоштовно.</p>
+        <details class="premium-accordion">
+          <summary>Переваги LinkedIn Premium</summary>
+          <ul>
+            <li>Необмежений доступ до LinkedIn Learning для навчання та прокачки навичок.</li>
+            <li>Перегляд профілів у приватному режимі та розширена статистика по кандидатах.</li>
+            <li>Прямі повідомлення InMail з щомісячними кредитами для зв’язку з потрібними людьми.</li>
+            <li>Розширені дані «Хто переглядав ваш профіль» з історією до 365 днів.</li>
+            <li>Додаткові AI-інструменти для пошуку роботи, клієнтів та партнерів.</li>
+            <li>Розширена бізнес-аналітика профілів та компаній.</li>
+            <li>Можливості сторінки послуг Premium для залучення клієнтів.</li>
+            <li>Sales Navigator: розширений пошук, списки лідів, рекомендації та алерти в реальному часі.</li>
+          </ul>
+          <p>✔ Підписку можна скасувати будь-якої миті.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="section muted">
+    <div class="container">
+      <div class="section-heading centered">
+        <p class="eyebrow">Повний доступ</p>
+        <h2>Що входить у повний доступ</h2>
+      </div>
+      <div class="full-access-included-grid">
+        {% for item in page.included_products %}
+          <article class="full-access-included-card">
+            <p class="eyebrow">{{ item.label }}</p>
+            <h3>{% if item.url %}<a href="{{ item.url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}</h3>
+            {% if item.badge %}<span class="included-note-badge">{{ item.badge }}</span>{% endif %}
+            <p>{{ item.summary }}</p>
+            <details>
+              <summary>Що всередині?</summary>
+              <ul>
+                {% for point in item.points %}
+                  <li>{{ point }}</li>
+                {% endfor %}
+              </ul>
+              <p class="included-price">Вартість окремо — {{ item.standalone_price }}</p>
+            </details>
+          </article>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container full-access-split">
+      <div>
+        <p class="eyebrow">НІ, ЦЕ НЕ КУРС</p>
+        <h2>Це практична база знань в одному місці</h2>
+      </div>
+      <div class="full-access-copy-card">
+        <p>Купуючи <span class="inline-product-chip">LinkedIn Повний доступ</span>, ви отримуєте практичні інструменти, які працюють прямо зараз.</p>
+        <p><strong>Вам не потрібно шукати інформацію по десятках сайтів. Усе вже знаходиться в одному місці.</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section muted">
+    <div class="container value-stack">
+      <p class="eyebrow">Загальна цінність</p>
+      <h2>Якщо купувати все окремо</h2>
+      <div class="value-number">≈ 16 181 грн</div>
+      <div class="value-price-main">
+        <span>Ваша ціна сьогодні</span>
+        <strong>{{ page.price }}</strong>
+      </div>
+      <a class="button primary full-access-gradient-button" href="{{ pay_url }}">Отримати повний доступ</a>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container full-access-split">
+      <div>
+        <p class="eyebrow">Активація подарунка</p>
+        <h2>Як отримати LinkedIn Premium?</h2>
+      </div>
+      <div class="full-access-copy-card">
+        <p>Після покупки просто перейдіть у закритий клуб та напишіть повідомлення:</p>
+        <p class="subscription-word">ПІДПИСКА</p>
+        <p>Після цього ви отримаєте інструкцію для активації LinkedIn Premium.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section full-access-final">
+    <div class="container narrow">
+      <p class="eyebrow">LinkedIn Повний доступ</p>
+      <h2>Повна база знань, готові системи, AI-інструменти, постійні оновлення та всі матеріали в одному місці.</h2>
+      <p>Фактично ви отримуєте все необхідне, щоб розвивати свій LinkedIn без необхідності купувати окремі курси або витрачати час на пошук інформації.</p>
+      <a class="button primary full-access-gradient-button" href="{{ pay_url }}">Отримати повний доступ</a>
+    </div>
+  </section>
+</article>
