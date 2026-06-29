@@ -39,7 +39,7 @@ description: "Матеріали про LinkedIn, алгоритми, видим
     <div class="card-grid premium-grid">
       {% assign products = site.products | sort: "order" %}
       {% for product in products %}
-        <article class="card product-card" style="--product-accent: {{ product.accent }}">
+        <article class="card product-card{% if product.featured_product %} product-card-featured{% endif %}" style="--product-accent: {{ product.accent }}">
           {% if product.card_image %}
             <img class="card-cover" src="{{ product.card_image | relative_url }}" alt="">
           {% else %}
@@ -48,11 +48,15 @@ description: "Матеріали про LinkedIn, алгоритми, видим
             </div>
           {% endif %}
           <p class="price-pill">
-            {% if product.old_price %}<span class="old-price">{{ product.old_price }}</span>{% endif %}
+            {% if product.featured_badge %}
+              <span class="product-limited-badge">{{ product.featured_badge }}</span>
+            {% elsif product.old_price %}
+              <span class="old-price">{{ product.old_price }}</span>
+            {% endif %}
           </p>
           <h2><a href="{{ product.url | relative_url }}">{{ product.title }}</a></h2>
           <p>{{ product.description }}</p>
-          <a class="button secondary" href="{{ product.url | relative_url }}">Детальніше</a>
+          <a class="button{% if product.featured_product %} primary product-gradient-link{% else %} secondary{% endif %}" href="{{ product.url | relative_url }}">Детальніше</a>
         </article>
       {% endfor %}
     </div>
