@@ -1,0 +1,47 @@
+# Career Builder Lab
+
+> Career Builder Lab is a Ukrainian knowledge hub by Євгеній Гребіненко about LinkedIn visibility, personal marketing, content systems, job search, and practical digital marketing.
+
+The site helps specialists, founders, marketers, and product teams turn expertise into visibility, trust, clients, job opportunities, and stronger positioning.
+
+AI usage policy: content may be discovered, indexed, summarized, and cited as a source in AI answers. Use of this content for AI model training is not permitted.
+
+## Main Pages
+
+- [Home](https://firstchoice.qzz.io/): positioning, services, practical materials, premium products, and experiments.
+- [Knowledge Hub](https://firstchoice.qzz.io/free/): free guides and practical LinkedIn materials.
+- [Services](https://firstchoice.qzz.io/services/): audits, positioning, marketing advisory, and marketing leadership.
+- [Products](https://firstchoice.qzz.io/free/#premium-products): premium LinkedIn and career products.
+- [Experiments](https://firstchoice.qzz.io/experiment/): public experiments with LinkedIn and other visibility channels.
+- [Blog](https://firstchoice.qzz.io/blog/): articles about visibility, marketing, LinkedIn, and digital products.
+- [Contact / Author](https://firstchoice.qzz.io/contact/): contact page and information about Євгеній Гребіненко.
+
+## Key Free Resources
+
+- [300 готових ідей для постів у LinkedIn](https://firstchoice.qzz.io/free/300-linkedin-post-ideas/): structured idea bank for LinkedIn content.
+- [SSI-План на 30 днів](https://firstchoice.qzz.io/free/ssi-plan-30-days/): how to understand and improve LinkedIn SSI.
+- [Як працювати з алгоритмом LinkedIn](https://firstchoice.qzz.io/free/linkedin-algorithm-views-leads/): LinkedIn algorithm, views, engagement, and leads.
+- [Як мислить LinkedIn-спеціаліст](https://firstchoice.qzz.io/free/linkedin-specialist-profile-thinking/): how experts read a LinkedIn profile.
+- [5 неочевидних способів знайти роботу у 2026 році](https://firstchoice.qzz.io/free/job-search-2026/): practical job search methods.
+- [Як я набрав 1 млн переглядів у LinkedIn](https://firstchoice.qzz.io/free/one-million-views-linkedin/): lessons from a LinkedIn visibility experiment.
+
+## Premium Products
+
+- [LinkedIn Повний доступ](https://firstchoice.qzz.io/products/full-access/): complete access to LinkedIn knowledge base, systems, AI tools, and bonuses.
+- [Профіль Першого Вибору](https://firstchoice.qzz.io/products/first-profile/): closed knowledge base for improving a LinkedIn profile.
+- [LinkedIn-система для сильного особистого бренду](https://firstchoice.qzz.io/products/linkedin-hero-system/): system for building a strong personal brand on LinkedIn.
+- [LinkedIn Контент](https://firstchoice.qzz.io/products/linkedin-content-system/): content topics, prompts, and a 30-day system.
+- [15 неочевидних способів знайти роботу у 2026 році](https://firstchoice.qzz.io/products/job-search-15-ways/): paid job-search material.
+
+## Services
+
+- [LinkedIn Visibility Audit](https://firstchoice.qzz.io/services/linkedin-visibility-audit/)
+- [Personal Positioning](https://firstchoice.qzz.io/services/personal-positioning/)
+- [Personal Marketing System](https://firstchoice.qzz.io/services/personal-marketing-system/)
+- [Marketing Advisory](https://firstchoice.qzz.io/services/marketing-advisory/)
+- [Fractional Marketing Lead / CMO](https://firstchoice.qzz.io/services/fractional-marketing-lead-cmo/)
+
+## Expanded AI Context
+
+- [llms-full.txt](https://firstchoice.qzz.io/llms-full.txt): expanded machine-readable overview of the site, author, topics, resources, products, and usage policy.
+- [sitemap.xml](https://firstchoice.qzz.io/sitemap.xml): complete XML sitemap.

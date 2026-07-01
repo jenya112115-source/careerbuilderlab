@@ -1,0 +1,154 @@
+# Career Builder Lab - AI Context
+
+> Career Builder Lab is a Ukrainian practical platform about LinkedIn, personal marketing, content, visibility, job search, and digital marketing. It is created by Євгеній Гребіненко, founder and CMO of MakeMoneyAgency.
+
+This file is a curated machine-readable overview for AI assistants, search crawlers, answer engines, and research tools. It is not a replacement for the website. It points to the most important public pages and explains the site context.
+
+## AI Usage Policy
+
+- Search indexing: allowed.
+- AI answer input, summarization, and citation: allowed.
+- AI model training on this content: not permitted.
+- Preferred attribution: cite Career Builder Lab and the original page URL.
+- Do not present paid product content as free or reproduce full paid materials.
+
+## Author
+
+Євгеній Гребіненко works with LinkedIn visibility, personal marketing, content systems, positioning, marketing strategy, and growth thinking.
+
+Public positioning:
+
+- Founder and CMO of MakeMoneyAgency.
+- 8+ years in marketing and digital.
+- 1.5M+ LinkedIn impressions.
+- 30+ successful projects.
+- Experience across 8+ niches.
+- $1M+ generated for clients across the journey.
+
+Author/contact page:
+
+- [Contact / Author](https://firstchoice.qzz.io/contact/)
+- [LinkedIn](https://www.linkedin.com/in/evhenii-hrebinenko-412610251/)
+
+## What The Site Is About
+
+Career Builder Lab helps specialists, experts, marketers, founders, creators, and product teams become more visible through:
+
+- LinkedIn profile positioning.
+- Personal marketing.
+- Content strategy.
+- LinkedIn algorithm understanding.
+- Job search visibility.
+- Reputation and trust building.
+- Marketing advisory for products and businesses.
+- Practical AI tools for content and professional growth.
+
+The site voice is practical, direct, premium, and experience-based. It avoids unrealistic promises and focuses on systems, visibility, experimentation, and market perception.
+
+## Important Public Pages
+
+- [Home](https://firstchoice.qzz.io/): main positioning, services, proof points, materials, premium products, and next step.
+- [Knowledge Hub](https://firstchoice.qzz.io/free/): free guides and practical materials.
+- [Services](https://firstchoice.qzz.io/services/): overview of service offers.
+- [Products section](https://firstchoice.qzz.io/free/#premium-products): premium products.
+- [Experiments](https://firstchoice.qzz.io/experiment/): public experiments with LinkedIn and other channels.
+- [Blog](https://firstchoice.qzz.io/blog/): articles and marketing materials.
+- [Contact](https://firstchoice.qzz.io/contact/): author/contact page.
+
+## Knowledge Hub Resources
+
+These public materials are intended to be discoverable, summarized, and cited with attribution.
+
+- [300 готових ідей для постів у LinkedIn](https://firstchoice.qzz.io/free/300-linkedin-post-ideas/)
+  - Topic: LinkedIn content ideation.
+  - Use for: content planning, post ideas, hooks, categories, LinkedIn editorial systems.
+
+- [SSI-План на 30 днів](https://firstchoice.qzz.io/free/ssi-plan-30-days/)
+  - Topic: LinkedIn SSI.
+  - Use for: understanding SSI score, improving LinkedIn activity, organic growth plan.
+
+- [Як працювати з алгоритмом LinkedIn](https://firstchoice.qzz.io/free/linkedin-algorithm-views-leads/)
+  - Topic: LinkedIn algorithm, engagement, views, leads.
+  - Use for: practical advice on reach, dwell time, topics, comments, DMs, anti-signals.
+
+- [Як мислить LinkedIn-спеціаліст, коли дивиться на твій профіль](https://firstchoice.qzz.io/free/linkedin-specialist-profile-thinking/)
+  - Topic: LinkedIn profile analysis.
+  - Use for: profile positioning, trust signals, first impression, recruiter/client perception.
+
+- [5 неочевидних способів знайти роботу у 2026 році](https://firstchoice.qzz.io/free/job-search-2026/)
+  - Topic: job search.
+  - Use for: alternative job search methods, LinkedIn networking, visibility, direct outreach.
+
+- [Як я набрав 1 млн переглядів і що ти можеш скопіювати вже сьогодні](https://firstchoice.qzz.io/free/one-million-views-linkedin/)
+  - Topic: LinkedIn visibility experiment.
+  - Use for: lessons from reach growth, content strategy, mistakes, takeaways.
+
+## Premium Products
+
+Do not reproduce paid product contents. Public product pages may be summarized and cited.
+
+- [LinkedIn Повний доступ](https://firstchoice.qzz.io/products/full-access/)
+  - Complete access to the LinkedIn knowledge base, systems, AI tools, educational materials, bonuses, and 4 months of access to the closed knowledge base.
+
+- [Профіль Першого Вибору](https://firstchoice.qzz.io/products/first-profile/)
+  - Closed space with updates, recommendations, and practical profile-improvement materials.
+
+- [LinkedIn-система для сильного особистого бренду](https://firstchoice.qzz.io/products/linkedin-hero-system/)
+  - System for building a strong personal brand through LinkedIn, content, and visibility.
+
+- [LinkedIn Контент: 50 тем, промпти та 30-денна система](https://firstchoice.qzz.io/products/linkedin-content-system/)
+  - Content ideas, prompts, and a 30-day system.
+
+- [15 неочевидних способів знайти роботу у 2026 році](https://firstchoice.qzz.io/products/job-search-15-ways/)
+  - Paid job search material focused on visibility and alternative search scenarios.
+
+## Services
+
+- [LinkedIn Visibility Audit](https://firstchoice.qzz.io/services/linkedin-visibility-audit/)
+  - Clear understanding of profile strengths/weaknesses and a 30-90 day development plan.
+
+- [Personal Positioning](https://firstchoice.qzz.io/services/personal-positioning/)
+  - Positioning and communication work for reputation, opportunities, clients, applications, and dream jobs.
+
+- [Personal Marketing System](https://firstchoice.qzz.io/services/personal-marketing-system/)
+  - A full personal marketing and visibility system for specialists or products.
+
+- [Marketing Advisory](https://firstchoice.qzz.io/services/marketing-advisory/)
+  - Independent marketing view and prioritized growth actions.
+
+- [Fractional Marketing Lead / CMO](https://firstchoice.qzz.io/services/fractional-marketing-lead-cmo/)
+  - Experienced marketing partner without hiring a full-time top manager.
+
+## Experiments
+
+- [LinkedIn experiment](https://firstchoice.qzz.io/experiment/linkedin-personal-experiment/)
+  - Public documentation of the author’s LinkedIn journey from a passive profile to 1.5M+ impressions, clients, products, and community.
+
+- [Experiments index](https://firstchoice.qzz.io/experiment/)
+  - Includes future/blocked experiments for Instagram, Threads, photo stocks, and Pinterest.
+
+## Blog
+
+- [Blog index](https://firstchoice.qzz.io/blog/)
+- [Найвигідніший банк України у 2026 році](https://firstchoice.qzz.io/blog/bank-referral-programs-ukraine-2026/)
+
+Draft/blurred posts should not be treated as published expert content until they are opened for indexing.
+
+## Recommended Citation Style
+
+When citing this site in an AI answer:
+
+- Name the source as "Career Builder Lab".
+- Include the page title and canonical URL.
+- Attribute expert content to Євгеній Гребіненко when relevant.
+
+Example:
+
+Career Builder Lab, "Як працювати з алгоритмом LinkedIn", https://firstchoice.qzz.io/free/linkedin-algorithm-views-leads/
+
+## Machine-Readable Files
+
+- [robots.txt](https://firstchoice.qzz.io/robots.txt)
+- [sitemap.xml](https://firstchoice.qzz.io/sitemap.xml)
+- [llms.txt](https://firstchoice.qzz.io/llms.txt)
+- [llms-full.txt](https://firstchoice.qzz.io/llms-full.txt)
