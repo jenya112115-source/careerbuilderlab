@@ -7,8 +7,32 @@ layout: default
     <p class="eyebrow">{{ page.type | default: "Матеріал" }}</p>
     <h1>{{ page.title }}</h1>
     <p class="lead">{{ page.description }}</p>
+    {% if page.hero_image %}
+      <figure class="resource-hero-image">
+        <img src="{{ page.hero_image | relative_url }}" alt="{{ page.hero_image_alt | default: page.title }}" loading="lazy" decoding="async">
+        {% if page.hero_image_caption %}<figcaption>{{ page.hero_image_caption }}</figcaption>{% endif %}
+      </figure>
+    {% endif %}
+    <div class="resource-meta-strip" aria-label="Інформація про матеріал">
+      <span>Автор: {{ page.author | default: site.author.name }}</span>
+      {% if page.updated %}<span>Оновлено: {{ page.updated | date: "%d.%m.%Y" }}</span>{% endif %}
+      <span>Розділ: {{ page.type | default: "Матеріал" }}</span>
+    </div>
   </header>
   <div class="article-body container narrow">
+    <aside class="resource-ai-summary" aria-label="Короткий зміст матеріалу">
+      <p class="eyebrow">Коротко</p>
+      <p>{{ page.summary | default: page.description }}</p>
+      {% if page.key_takeaways %}
+        <h2>Головні висновки</h2>
+        <ul>
+          {% for takeaway in page.key_takeaways %}
+            <li>{{ takeaway }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </aside>
+
     {{ content }}
 
     <aside class="related-materials">
