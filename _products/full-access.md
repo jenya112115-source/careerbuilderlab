@@ -3,7 +3,7 @@ layout: full-access
 title: "LinkedIn Повний доступ"
 subtitle: "Усе що потрібно, щоб розкачати твій LinkedIn - в одному місці."
 description: "Отримайте повний доступ до закритої бази знань, готових систем, AI-інструментів, навчальних матеріалів та бонусів."
-price: "1587 грн"
+price: "1587 UAH"
 old_price: "1887 грн"
 payment_url: "https://secure.wayforpay.com/payment/full.access"
 accent: "#00A6C8"
