@@ -4,4 +4,6 @@ layout: null
 User-agent: *
 Allow: /
 
+Content-Signal: search=yes, ai-input=yes, ai-train=no
+
 Sitemap: {{ "/sitemap.xml" | absolute_url }}
