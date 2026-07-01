@@ -10,6 +10,32 @@ description: "Матеріали про LinkedIn, алгоритми, видим
     <div class="section-heading centered">
       <p class="eyebrow">Матеріали</p>
       <h2>Практичні розбори та гайди</h2>
+      <p>База знань Career Builder Lab: матеріали про LinkedIn, алгоритми, контент, пошук роботи, профіль, видимість і персональний маркетинг. Усі матеріали написані Євгенієм Гребіненком на основі практики, експериментів і роботи з ринком.</p>
+    </div>
+    <nav class="knowledge-hub-nav" aria-label="Категорії бази знань">
+      <a href="#knowledge-linkedin">LinkedIn</a>
+      <a href="#knowledge-profile">Профіль</a>
+      <a href="#knowledge-career">Кар'єра</a>
+      <a href="#knowledge-experiment">Експерименти</a>
+      <a href="#premium-products">Преміум продукти</a>
+    </nav>
+    <div class="knowledge-category-grid" aria-label="Основні теми бази знань">
+      <article id="knowledge-linkedin">
+        <strong>LinkedIn</strong>
+        <span>Алгоритми, SSI, контент, охоплення та системна видимість.</span>
+      </article>
+      <article id="knowledge-profile">
+        <strong>Профіль</strong>
+        <span>Позиціонування, перший екран, довіра та сприйняття експертизи.</span>
+      </article>
+      <article id="knowledge-career">
+        <strong>Кар'єра</strong>
+        <span>Пошук роботи, сигнали для рекрутерів, офери та альтернативні сценарії.</span>
+      </article>
+      <article id="knowledge-experiment">
+        <strong>Експерименти</strong>
+        <span>Практичні висновки з реальних LinkedIn-тестів та публічних кейсів.</span>
+      </article>
     </div>
     <div class="card-grid knowledge-grid">
       {% assign resources = site.resources | sort: "order" %}
@@ -23,6 +49,7 @@ description: "Матеріали про LinkedIn, алгоритми, видим
           <p class="eyebrow">{{ resource.type }}</p>
           <h2><a href="{{ resource.url | relative_url }}">{{ resource.card_title | default: resource.title }}</a></h2>
           <p>{{ resource.description }}</p>
+          {% if resource.summary %}<p class="knowledge-summary">{{ resource.summary }}</p>{% endif %}
           <a class="button secondary" href="{{ resource.url | relative_url }}">Читати</a>
         </article>
       {% endfor %}
