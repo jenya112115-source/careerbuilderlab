@@ -644,6 +644,56 @@ h3 {
   margin-top: auto;
 }
 
+.knowledge-hub-nav,
+.knowledge-category-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: .75rem;
+  margin: 0 auto 1.5rem;
+}
+
+.knowledge-hub-nav a {
+  padding: .55rem .85rem;
+  border: 1px solid color-mix(in srgb, var(--cyan) 34%, var(--border));
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--cyan) 8%, var(--surface));
+  color: var(--text);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.knowledge-category-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  align-items: stretch;
+  margin-bottom: 2rem;
+}
+
+.knowledge-category-grid article {
+  padding: 1rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  box-shadow: 0 12px 30px rgba(15, 23, 42, .05);
+}
+
+.knowledge-category-grid strong {
+  display: block;
+  margin-bottom: .35rem;
+}
+
+.knowledge-category-grid span,
+.knowledge-summary {
+  color: var(--text-muted);
+  font-size: .95rem;
+}
+
+.knowledge-summary {
+  padding-top: .8rem;
+  border-top: 1px solid var(--border);
+}
+
 .premium-grid {
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 270px), 1fr));
 }
@@ -768,6 +818,71 @@ h3 {
   font-size: 1.08rem;
 }
 
+.resource-meta-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .65rem;
+  margin-top: 1.25rem;
+}
+
+.resource-meta-strip span {
+  padding: .45rem .7rem;
+  border: 1px solid color-mix(in srgb, var(--cyan) 24%, var(--border));
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--cyan) 7%, var(--surface));
+  color: var(--text-muted);
+  font-size: .86rem;
+  font-weight: 800;
+}
+
+.resource-hero-image {
+  margin: 1.75rem 0 0;
+}
+
+.resource-hero-image img {
+  width: 100%;
+  border: 1px solid color-mix(in srgb, var(--cyan) 24%, var(--border));
+  border-radius: 8px;
+  background: var(--surface-muted);
+  box-shadow: 0 18px 48px rgba(15, 23, 42, .08);
+}
+
+.resource-hero-image figcaption {
+  margin-top: .65rem;
+  color: var(--text-muted);
+  font-size: .92rem;
+  text-align: center;
+}
+
+.resource-ai-summary {
+  margin: 0 0 2rem;
+  padding: clamp(1.25rem, 3vw, 2rem);
+  border: 1px solid color-mix(in srgb, var(--cyan) 34%, var(--border));
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--cyan) 8%, transparent), transparent 62%),
+    var(--surface);
+  box-shadow: 0 14px 36px rgba(15, 23, 42, .06);
+}
+
+.resource-ai-summary p {
+  margin-top: 0;
+}
+
+.resource-ai-summary h2 {
+  margin: 1.1rem 0 .65rem;
+  font-size: clamp(1.25rem, 2.4vw, 1.65rem);
+}
+
+.resource-ai-summary ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.resource-ai-summary li + li {
+  margin-top: .35rem;
+}
+
 .article-body p,
 .article-body ul {
   color: var(--text-muted);
@@ -812,6 +927,59 @@ h3 {
   background: color-mix(in srgb, var(--cyan) 16%, transparent);
   color: var(--text);
   font-weight: 800;
+}
+
+.mistake-card-list {
+  display: grid;
+  gap: .85rem;
+  margin: 1.4rem 0 1.8rem;
+}
+
+.mistake-card-list article,
+.prompt-card {
+  border: 1px solid color-mix(in srgb, var(--cyan) 32%, var(--border));
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--cyan) 8%, transparent), transparent 64%),
+    var(--surface);
+  box-shadow: 0 12px 30px rgba(15, 23, 42, .05);
+}
+
+.mistake-card-list article {
+  padding: 1rem;
+}
+
+.mistake-card-list strong {
+  display: block;
+  margin-bottom: .35rem;
+  color: var(--text);
+  font-size: 1.05rem;
+}
+
+.mistake-card-list p {
+  margin: 0;
+  color: var(--text-muted);
+}
+
+.prompt-card {
+  margin: 1.4rem 0 1.8rem;
+  padding: clamp(1rem, 3vw, 1.35rem);
+  border-left: 4px solid var(--violet);
+  font-family: var(--font-sans);
+}
+
+.prompt-card p {
+  margin: .65rem 0;
+  color: var(--text);
+}
+
+.prompt-card p:first-child {
+  margin-top: 0;
+  font-weight: 900;
+}
+
+.prompt-card p:last-child {
+  margin-bottom: 0;
 }
 
 .article-meta {
@@ -1763,6 +1931,7 @@ h3 {
   .method-grid,
   .contact-grid,
   .metric-strip,
+  .knowledge-category-grid,
   .full-access-included-grid,
   .ideas-toc-grid,
   .ideas-keypoints {
@@ -1816,6 +1985,7 @@ h3 {
   .method-grid,
   .contact-grid,
   .metric-strip,
+  .knowledge-category-grid,
   .full-access-included-grid,
   .ideas-toc-grid,
   .ideas-keypoints {
