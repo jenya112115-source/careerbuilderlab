@@ -171,8 +171,8 @@ LinkedIn дивиться:
 
 ## 7. Теми, які частіше залітають
 
-<div class="article-callout">
-  <p><span class="text-highlight">Цей блок та інші додаткові матеріали</span> доступні в <a href="https://secure.wayforpay.com/sub/firstprofile">закритому просторі «Профіль Першого Вибору»</a>.</p>
+<div class="article-callout recommendation-callout">
+  <p><strong>Готова система для цього блоку.</strong> Якщо хочеш швидше зрозуміти, які теми можуть набирати охоплення у твоїй ніші, її можна забрати <a href="https://secure.wayforpay.com/payment/level1.link">тут</a>.</p>
 </div>
 
 ## 8. Людський текст проти «AI-статті»
@@ -193,7 +193,7 @@ LinkedIn дивиться:
 
 - дивитися на аналітику тем і форматів.
 
-Але навіть найкращі формули не працюють, якщо ви публікуєте раз на місяць.
+Але навіть <span class="text-highlight">найкращі формули не працюють</span>, якщо ви публікуєте раз на місяць.
 
 Мій підхід:
 
@@ -201,7 +201,7 @@ LinkedIn дивиться:
 
 - ідеально — регулярність + мінімальний чек якості (ясний гачок, зрозуміла думка, людський тон).
 
-Регулярність дає:
+<span class="text-highlight">Регулярність дає</span>:
 
 - достатню кількість спроб, щоб побачити закономірності;
 
@@ -211,13 +211,13 @@ LinkedIn дивиться:
 
 ## 10. Що ще впливає, але про це часто забувають
 
-<div class="article-callout">
-  <p><span class="text-highlight">Цей блок та інші додаткові матеріали</span> доступні в <a href="https://secure.wayforpay.com/sub/firstprofile">закритому просторі «Профіль Першого Вибору»</a>.</p>
+<div class="article-callout recommendation-callout">
+  <p><strong>Готова система для цього блоку.</strong> Якщо хочеш побачити додаткові фактори, які впливають на охоплення та заявки, її можна забрати <a href="https://secure.wayforpay.com/payment/level1.link">тут</a>.</p>
 </div>
 
 ## 11. Creator Mode та «експертиза» в очах алгоритму
 
-Якщо ви серйозно ставитеся до контенту, Creator Mode зараз майже обов’язковий.
+Якщо ви серйозно ставитеся до контенту, <span class="text-highlight">Creator Mode зараз майже обов’язковий</span>.
 
 Що він дає:
 
@@ -227,7 +227,7 @@ LinkedIn дивиться:
 
 - кращу видимість для авторів, які публікують регулярно.
 
-Плюс LinkedIn все більше дивиться на три речі: релевантність, експертизу й залучення.
+Плюс LinkedIn все більше дивиться на три речі: <span class="text-highlight">релевантність, експертизу й залучення</span>.
 
 Тобто:
 
@@ -245,8 +245,8 @@ LinkedIn дивиться:
 
 ## 13. Нові «анти-сигнали»: як легко вбити охоплення
 
-<div class="article-callout">
-  <p><span class="text-highlight">Цей блок та інші додаткові матеріали</span> доступні в <a href="https://secure.wayforpay.com/sub/firstprofile">закритому просторі «Профіль Першого Вибору»</a>.</p>
+<div class="article-callout recommendation-callout">
+  <p><strong>Готова система для цього блоку.</strong> Якщо хочеш уникати анти-сигналів і не вбивати охоплення помилками в активності, її можна забрати <a href="https://secure.wayforpay.com/payment/level2.link">тут</a>.</p>
 </div>
 
 ## 14. Як я можу допомогти вам із LinkedIn
