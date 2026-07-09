@@ -49,7 +49,6 @@ description: "Матеріали про LinkedIn, алгоритми, видим
           <p class="eyebrow">{{ resource.type }}</p>
           <h2><a href="{{ resource.url | relative_url }}">{{ resource.card_title | default: resource.title }}</a></h2>
           <p>{{ resource.description }}</p>
-          {% if resource.summary %}<p class="knowledge-summary">{{ resource.summary }}</p>{% endif %}
           <a class="button secondary" href="{{ resource.url | relative_url }}">Читати</a>
         </article>
       {% endfor %}
