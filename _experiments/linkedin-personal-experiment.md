@@ -122,4 +122,23 @@ available: true
     <p>І головне - розуміння того, що видимість можна будувати системно.</p>
     <p>Сьогодні цей експеримент триває. І я продовжую документувати його тут.</p>
   </div>
+
+  <div class="experiment-recommendation">
+    <p class="eyebrow">Рекомендація</p>
+    <h2>Хочете застосувати це до свого LinkedIn?</h2>
+    <div class="card-grid two-card-grid">
+      <article class="card">
+        <p class="eyebrow">База знань</p>
+        <h3><a href="/free/">Практичні матеріали</a></h3>
+        <p>Гайди, розбори та системи, які допомагають швидше посилити профіль, контент і видимість.</p>
+        <a class="button secondary" href="/free/">Перейти до бази</a>
+      </article>
+      <article class="card">
+        <p class="eyebrow">Інструменти</p>
+        <h3><a href="/tools/">LINK Score</a></h3>
+        <p>Швидко перевірте, як сьогодні працює ваш LinkedIn, і отримайте напрямки для росту.</p>
+        <a class="button secondary" href="/tools/">Перейти до інструментів</a>
+      </article>
+    </div>
+  </div>
 </section>
