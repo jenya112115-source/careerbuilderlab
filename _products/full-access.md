@@ -9,7 +9,7 @@ payment_url: "https://secure.wayforpay.com/payment/full.access"
 accent: "#00A6C8"
 order: 0
 featured_product: true
-featured_badge: "Обмежений час"
+featured_badge: "До 14 липня 23:59"
 included_products:
   - label: "Система профілю"
     title: "LinkedIn Hero System"
