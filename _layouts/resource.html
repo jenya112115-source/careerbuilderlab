@@ -20,6 +20,8 @@ layout: default
     </div>
   </header>
   <div class="article-body container narrow">
+    {{ content }}
+
     <aside class="resource-ai-summary" aria-label="Короткий зміст матеріалу">
       <p class="eyebrow">Коротко</p>
       <p>{{ page.summary | default: page.description }}</p>
@@ -32,8 +34,6 @@ layout: default
         </ul>
       {% endif %}
     </aside>
-
-    {{ content }}
 
     <aside class="related-materials">
       <h2>Вам також може допомогти</h2>
