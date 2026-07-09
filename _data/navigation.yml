@@ -6,6 +6,8 @@
   url: "/experiment/"
 - label: "База знань"
   url: "/free/"
+- label: "Інструменти"
+  url: "/tools/"
 - label: "Блог"
   url: "/blog/"
 - label: "Контакти"
