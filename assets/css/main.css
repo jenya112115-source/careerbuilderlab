@@ -480,6 +480,26 @@ h3 {
   box-shadow: 0 18px 46px rgba(15, 23, 42, .08);
 }
 
+@media (hover: none) {
+  .proof-card:active,
+  .method-grid article:active,
+  .card:active,
+  .card:focus-within,
+  .listing-card:active,
+  .listing-card:focus-within,
+  .contact-card:active,
+  .contact-card:focus-within,
+  .detail-aside:active,
+  .detail-aside:focus-within {
+    transform: translateY(-2px);
+    border-color: color-mix(in srgb, var(--cyan) 36%, var(--border));
+    background:
+      linear-gradient(135deg, color-mix(in srgb, var(--cyan) 8%, transparent), transparent 72%),
+      var(--surface);
+    box-shadow: 0 16px 40px rgba(15, 23, 42, .08);
+  }
+}
+
 .proof-card {
   min-height: 150px;
   padding: 1.2rem;
@@ -581,6 +601,11 @@ h3 {
   min-height: 300px;
   display: flex;
   flex-direction: column;
+}
+
+.knowledge-card h2,
+.product-card h2 {
+  text-align: center;
 }
 
 .card-visual {
@@ -1517,6 +1542,48 @@ h3 {
   margin: .55rem 0;
 }
 
+.article-body table {
+  width: 100%;
+  margin: 1.25rem 0 1.8rem;
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
+  border: 1px solid color-mix(in srgb, var(--cyan) 28%, var(--border));
+  border-radius: 8px;
+  background: var(--surface);
+  box-shadow: 0 14px 36px rgba(15, 23, 42, .06);
+}
+
+.article-body th,
+.article-body td {
+  padding: .95rem 1rem;
+  border-bottom: 1px solid var(--border);
+  border-right: 1px solid var(--border);
+  color: var(--text-muted);
+  text-align: left;
+  vertical-align: top;
+}
+
+.article-body th {
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--cyan) 12%, transparent), transparent 70%),
+    var(--surface-muted);
+  color: var(--text);
+  font-size: .86rem;
+  font-weight: 900;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+
+.article-body tr:last-child td {
+  border-bottom: 0;
+}
+
+.article-body th:last-child,
+.article-body td:last-child {
+  border-right: 0;
+}
+
 .article-callout {
   margin: 1.6rem 0;
   padding: clamp(1rem, 3vw, 1.35rem);
@@ -1551,6 +1618,14 @@ h3 {
 
 .recommendation-callout a {
   font-weight: 900;
+}
+
+.premium-access-callout {
+  border-color: color-mix(in srgb, var(--product-accent, var(--violet)) 42%, var(--border));
+  border-left-color: var(--product-accent, var(--violet));
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--product-accent, var(--violet)) 14%, transparent), transparent 66%),
+    var(--surface);
 }
 
 .text-highlight {
@@ -2644,6 +2719,12 @@ h3 {
 
   .lead {
     font-size: 1.05rem;
+  }
+
+  .article-body table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
   }
 
   .header-inner {
