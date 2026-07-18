@@ -17,7 +17,7 @@ key_takeaways:
 
 type: "LinkedIn"
 
-order: 6
+order: 5
 resource_class: "post-ideas-resource"
 
 ---

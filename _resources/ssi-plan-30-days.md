@@ -17,7 +17,7 @@ key_takeaways:
 
 type: "LinkedIn"
 
-order: 1
+order: 3
 
 ---
 

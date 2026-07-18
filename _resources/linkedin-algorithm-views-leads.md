@@ -2,7 +2,7 @@
 
 title: "Як працювати з алгоритмом LinkedIn"
 
-card_title: "Алгоритм LinkedIn"
+card_title: "Як працюють алгоритми LinkedIn?"
 visual_label: "АЛГОРИТМ"
 
 description: "Практичний матеріал про те, як набирати більше переглядів і заявок через контент та активність."
@@ -17,7 +17,7 @@ key_takeaways:
 
 type: "LinkedIn"
 
-order: 2
+order: 6
 
 ---
 

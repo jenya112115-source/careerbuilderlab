@@ -17,7 +17,7 @@ key_takeaways:
 
 type: "Профіль"
 
-order: 3
+order: 7
 
 ---
 
