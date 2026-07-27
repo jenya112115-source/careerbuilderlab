@@ -131,6 +131,10 @@ resource_class: "post-ideas-resource"
 
 6\. **Завершити дією** — питання для дискусії, м'який CTA або запит на досвід читача.
 
+<div class="article-callout recommendation-callout">
+  <p><strong>Ідеї працюють сильніше, коли є система.</strong> Якщо хочеш перетворити ці теми на повноцінну LinkedIn-стратегію з позиціонуванням, профілем, контентом і видимістю, подивись <a href="/frame/">Career Builder Framework</a>.</p>
+  <p><a class="button primary product-gradient-link" href="/frame/">Подивитися Framework</a></p>
+</div>
 </section>
 
 ## 12 контент-стовпів та формати

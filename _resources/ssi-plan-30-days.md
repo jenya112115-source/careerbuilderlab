@@ -92,6 +92,7 @@ SSI (Social Selling Index) — це <span class="text-highlight">внутріш�
 - Онови About: 3–5 абзаців про те, які задачі ти вирішуєш і для кого.
 
 - Додай 2–3 кейси/досягнення в Experience або Featured.
+
 
 <div class="article-callout recommendation-callout">
   <p><strong>Готова система для цього кроку.</strong> Якщо хочеш швидше посилити перший рівень профілю, її можна забрати <a href="https://secure.wayforpay.com/payment/level1.link">тут</a>.</p>
@@ -114,6 +115,7 @@ SSI (Social Selling Index) — це <span class="text-highlight">внутріш�
 - Раз на день виділяй 10–15 хвилин на цільовий пошук і конекти з коротким адекватним меседжем.
 
 - Перестань приймати всіх підряд: фільтруй запити, орієнтуючись на свою нішу.
+
 
 <div class="article-callout recommendation-callout">
   <p><strong>Готова система для цього кроку.</strong> Якщо хочеш краще працювати з мережею контактів і не збирати випадкових людей, її можна забрати <a href="https://secure.wayforpay.com/payment/level2.link">тут</a>.</p>
@@ -136,6 +138,7 @@ SSI (Social Selling Index) — це <span class="text-highlight">внутріш�
 - Щодня 5–10 осмислених коментарів у стрічці: не «клас, дякую», а свої думки, досвід, питання.
 
 - Використовуй структуру «контекст → думка → висновок/питання», щоб запускати обговорення.
+
 
 <div class="article-callout recommendation-callout">
   <p><strong>Готова система для цього кроку.</strong> Якщо хочеш простіше створювати пости, які запускають діалог, її можна забрати <a href="https://secure.wayforpay.com/payment/level3.link">тут</a>.</p>
@@ -158,6 +161,7 @@ SSI (Social Selling Index) — це <span class="text-highlight">внутріш�
 - Тим, хто регулярно лайкає/коментує, — іноді пиши: «Бачу, що часто реагуєте, цікаво почути ваш досвід про…».
 
 - Не кидай одразу «пітч», дай 1–2 кроки теплого діалогу, а вже потім — пропозицію про розмову/співпрацю.
+
 
 <div class="article-callout recommendation-callout">
   <p><strong>Готова система для цього кроку.</strong> Якщо хочеш будувати теплі діалоги без різкого пітчу, її можна забрати <a href="https://secure.wayforpay.com/payment/level4.link">тут</a>.</p>
@@ -206,8 +210,10 @@ SSI (Social Selling Index) — це <span class="text-highlight">внутріш�
 - зрозуміти, де саме просідає твій SSI;
 
 - за 30 днів системно «розбудити» профіль без дивних схем.
+
 
 <div class="article-callout recommendation-callout">
   <p><strong>Рекомендація.</strong> Якщо хочеш самостійно побудувати сильну LinkedIn-систему, почни з <a href="/products/linkedin-hero-system/">LinkedIn-системи для сильного особистого бренду</a>.</p>
-  <p>Якщо хочеш отримати повний доступ до бази знань, систем, AI-інструментів і матеріалів для росту, подивись <a href="/products/full-access/">LinkedIn Повний доступ</a>.</p>
+  <p>Якщо хочеш зібрати SSI, профіль, контент і видимість в одну покрокову систему, подивись <a href="/frame/">Career Builder Framework</a>.</p>
+  <p><a class="button primary product-gradient-link" href="/frame/">Подивитися Framework</a></p>
 </div>

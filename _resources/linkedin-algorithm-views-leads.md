@@ -144,7 +144,8 @@ LinkedIn дивиться:
 ## 5. Dwell time: як зробити так, щоб пост дочитували
 
 <div class="article-callout">
-  <p><span class="text-highlight">Цей блок та інші додаткові матеріали</span> доступні в <a href="https://secure.wayforpay.com/sub/firstprofile">закритому просторі «Профіль Першого Вибору»</a>.</p>
+  <p><span class="text-highlight">Цей блок та інші додаткові матеріали</span> доступні в <a href="https://secure.wayforpay.com/sub/firstprofile">закритому просторі «Профіль Першого Вибору»</a>, а повну систему роботи з профілем, контентом, алгоритмами та можливостями можна пройти у <a href="/frame/">Career Builder Framework</a>.</p>
+  <p><a class="button primary product-gradient-link" href="/frame/">Подивитися Framework</a></p>
 </div>
 
 ## 6. Зображення, відео, каруселі: що реально дає плюс
@@ -178,7 +179,8 @@ LinkedIn дивиться:
 ## 8. Людський текст проти «AI-статті»
 
 <div class="article-callout">
-  <p><span class="text-highlight">Цей блок та інші додаткові матеріали</span> доступні в <a href="https://secure.wayforpay.com/sub/firstprofile">закритому просторі «Профіль Першого Вибору»</a>.</p>
+  <p><span class="text-highlight">Цей блок та інші додаткові матеріали</span> доступні в <a href="https://secure.wayforpay.com/sub/firstprofile">закритому просторі «Профіль Першого Вибору»</a>, а повну систему роботи з профілем, контентом, алгоритмами та можливостями можна пройти у <a href="/frame/">Career Builder Framework</a>.</p>
+  <p><a class="button primary product-gradient-link" href="/frame/">Подивитися Framework</a></p>
 </div>
 
 ## 9. Регулярність vs якість
@@ -240,10 +242,9 @@ LinkedIn дивиться:
 ## 12. Збереження, шерінг і DMs як сильні сигнали
 
 <div class="article-callout">
-  <p><span class="text-highlight">Цей блок та інші додаткові матеріали</span> доступні в <a href="https://secure.wayforpay.com/sub/firstprofile">закритому просторі «Профіль Першого Вибору»</a>.</p>
-</div>
-
-## 13. Нові «анти-сигнали»: як легко вбити охоплення
+  <p><span class="text-highlight">Цей блок та інші додаткові матеріали</span> доступні в <a href="https://secure.wayforpay.com/sub/firstprofile">закритому просторі «Профіль Першого Вибору»</a>, а повну систему роботи з профілем, контентом, алгоритмами та можливостями можна пройти у <a href="/frame/">Career Builder Framework</a>.</p>
+  <p><a class="button primary product-gradient-link" href="/frame/">Подивитися Framework</a></p>
+</div>`r`n`r`n## 13. Нові «анти-сигнали»: як легко вбити охоплення
 
 <div class="article-callout recommendation-callout">
   <p><strong>Готова система для цього блоку.</strong> Якщо хочеш уникати анти-сигналів і не вбивати охоплення помилками в активності, її можна забрати <a href="https://secure.wayforpay.com/payment/level2.link">тут</a>.</p>
@@ -279,5 +280,6 @@ LinkedIn дивиться:
 
 <div class="article-callout">
   <p>А якщо хочеш, щоб твій профіль обирали першим у LinkedIn, долучайся до закритого простору експертів. Це місце, яке допомагає стати тим, кого обирають на LinkedIn у першу чергу.</p>
-  <p><a href="https://secure.wayforpay.com/sub/firstprofile">Долучитися до простору «Профіль Першого Вибору»</a></p>
+  <p><a href="https://secure.wayforpay.com/sub/firstprofile">Долучитися до простору «Профіль Першого Вибору»</a></p><p>А якщо хочеш пройти повну систему розвитку LinkedIn — від позиціонування до можливостей — подивись <a href="/frame/">Career Builder Framework</a>.</p>
+  <p><a class="button primary product-gradient-link" href="/frame/">Подивитися Framework</a></p>
 </div>

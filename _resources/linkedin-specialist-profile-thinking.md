@@ -112,7 +112,8 @@ About — це <span class="text-highlight">міні‑лендінг, а не �
 Ключ: <span class="text-highlight">цифри, динаміка, конкретика</span>.
 
 <div class="article-callout recommendation-callout">
-  <p><strong>Готова система для впровадження.</strong> Якщо хочеш швидше перетворити досвід у сильні блоки профілю та зрозумілу експертність, її можна забрати <a href="https://secure.wayforpay.com/payment/level1.link">тут</a>.</p>
+  <p><strong>Готова система для впровадження.</strong> Якщо хочеш швидше перетворити досвід у сильні блоки профілю, зрозумілу експертність і системну видимість, її можна пройти у <a href="/frame/">Career Builder Framework</a>.</p>
+  <p><a class="button primary product-gradient-link" href="/frame/">Подивитися Framework</a></p>
 </div>
 
 ## Крок 6. Наведи порядок у Skills
