@@ -13,30 +13,11 @@ description: "Матеріали про LinkedIn, алгоритми, видим
       <p>База знань Career Builder Lab: матеріали про LinkedIn, алгоритми, контент, пошук роботи, профіль, видимість і персональний маркетинг. Усі матеріали написані Євгенієм Гребіненком на основі практики, експериментів і роботи з ринком.</p>
     </div>
     <nav class="knowledge-hub-nav" aria-label="Категорії бази знань">
-      <a href="#knowledge-linkedin">LinkedIn</a>
-      <a href="#knowledge-profile">Профіль</a>
-      <a href="#knowledge-career">Кар'єра</a>
-      <a href="#knowledge-experiment">Експерименти</a>
+      <a href="#free-materials">Безкоштовні матеріали</a>
       <a href="#premium-products">Преміум продукти</a>
+      <a href="#exclusive-products">Ексклюзив</a>
     </nav>
-    <div class="knowledge-category-grid" aria-label="Основні теми бази знань">
-      <article id="knowledge-linkedin">
-        <strong>LinkedIn</strong>
-        <span>Алгоритми, SSI, контент, охоплення та системна видимість.</span>
-      </article>
-      <article id="knowledge-profile">
-        <strong>Профіль</strong>
-        <span>Позиціонування, перший екран, довіра та сприйняття експертизи.</span>
-      </article>
-      <article id="knowledge-career">
-        <strong>Кар'єра</strong>
-        <span>Пошук роботи, сигнали для рекрутерів, офери та альтернативні сценарії.</span>
-      </article>
-      <article id="knowledge-experiment">
-        <strong>Експерименти</strong>
-        <span>Практичні висновки з реальних LinkedIn-тестів та публічних кейсів.</span>
-      </article>
-    </div>
+    <div class="knowledge-divider" id="free-materials" aria-hidden="true"></div>
     <div class="card-grid knowledge-grid">
       {% assign resources = site.resources | sort: "order" %}
       {% for resource in resources %}
@@ -62,10 +43,10 @@ description: "Матеріали про LinkedIn, алгоритми, видим
       <p class="eyebrow">Преміум продукти</p>
       <h2>ПРЕМІУМ ПРОДУКТИ</h2>
     </div>
-    <div class="card-grid premium-grid">
+    <div class="card-grid premium-grid" data-premium-grid>
       {% assign products = site.products | sort: "order" %}
       {% for product in products %}
-        <article class="card product-card{% if product.featured_product %} product-card-featured{% endif %}" style="--product-accent: {{ product.accent }}">
+        <article class="card product-card{% if product.featured_product %} product-card-featured{% endif %}{% if forloop.index > 6 %} premium-card-extra{% endif %}" style="--product-accent: {{ product.accent }}">
           {% if product.card_image %}
             <img class="card-cover" src="{{ product.card_image | relative_url }}" alt="">
           {% else %}
@@ -86,5 +67,23 @@ description: "Матеріали про LinkedIn, алгоритми, видим
         </article>
       {% endfor %}
     </div>
+    <div class="premium-show-all">
+      <button class="button primary product-gradient-link" type="button" data-premium-show-all aria-expanded="false">ПОКАЗАТИ ВСІ</button>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="exclusive-products">
+  <div class="container">
+    <div class="section-heading centered">
+      <p class="eyebrow">Ексклюзив</p>
+      <h2>ЕКСКЛЮЗИВ</h2>
+      <p>Окремий глибокий продукт для тих, хто хоче не просто читати матеріали, а пройти системний шлях розвитку LinkedIn, видимості та особистого маркетингу.</p>
+    </div>
+    <a class="exclusive-card" href="{{ '/frame/' | relative_url }}">
+      <span>Career Builder Framework</span>
+      <strong>Закритий курс по LinkedIn та персональній видимості</strong>
+      <em>Перейти на сторінку</em>
+    </a>
   </div>
 </section>
