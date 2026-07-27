@@ -5,7 +5,7 @@ price: "249 UAH"
 old_price: "549 UAH"
 payment_url: "https://secure.wayforpay.com/payment/truecontent"
 accent: "#00A6C8"
-order: 3
+order: 7
 featured_home: true
 screenshots:
   - image: "/assets/images/products/linkedin-content-system_1.webp"
