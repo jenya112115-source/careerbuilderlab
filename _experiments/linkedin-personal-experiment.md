@@ -1,24 +1,26 @@
 ---
 title: "Мій експеримент з LinkedIn"
 card_title: "LinkedIn"
-description: "Як профіль «про всяк випадок» перетворився на 1.5M+ переглядів, продукти, клієнтів і спільноту навколо контенту."
+description: "Як профіль «про всяк випадок» перетворився на 2M+ переглядів, продукти, клієнтів і спільноту навколо контенту."
 channel: "LinkedIn"
 status: "Експеримент"
+author: "Євгеній Гребіненко"
+updated: "2026-07-27"
 order: 1
 available: true
 ---
 
 <section class="experiment-article">
   <div class="experiment-lead">
-    <p>Від профілю «про всяк випадок» до 1.5+ мільйона переглядів, власних продуктів, клієнтів та екосистеми навколо контенту.</p>
+    <p>Від профілю «про всяк випадок» до 2+ мільйонів переглядів, власних продуктів, клієнтів та екосистеми навколо контенту.</p>
     <p>Історія експериментів, помилок, дивних рішень та висновків, які я робив протягом кількох років.</p>
   </div>
 
   <div class="metric-strip">
-    <div><strong>👀 1.5M+</strong><span>переглядів</span></div>
-    <div><strong>👥 4500+</strong><span>контактів</span></div>
-    <div><strong>🚀 Власний</strong><span>продукт</span></div>
-    <div><strong>💬 Власна</strong><span>спільнота</span></div>
+    <div><strong>👀 2M+</strong><span>переглядів</span></div>
+    <div><strong>👥 5000+</strong><span>контактів</span></div>
+    <div><strong>🚀 Власні</strong><span>продукти</span></div>
+    <div><strong>💬 Власна</strong><span>ЕКОСИСТЕМА зростання і продуктів</span></div>
     <div><strong>🤝 Клієнти</strong><span>через контент</span></div>
   </div>
 
