@@ -7,6 +7,11 @@ layout: default
     <p class="eyebrow">{{ page.status | default: "Експеримент" }}</p>
     <h1>{{ page.title }}</h1>
     <p class="lead">{{ page.description }}</p>
+    <div class="resource-meta-strip" aria-label="Інформація про експеримент">
+      <span>Автор: {{ page.author | default: site.author.name }}</span>
+      {% if page.updated %}<span>Оновлено: {{ page.updated | date: "%d.%m.%Y" }}</span>{% endif %}
+      <span>Розділ: {{ page.channel | default: page.status | default: "Експеримент" }}</span>
+    </div>
   </header>
   <div class="article-body container experiment-container">
     {{ content }}

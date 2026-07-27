@@ -11,6 +11,9 @@ layout: default
       <div class="button-row">
         <a class="button primary" href="{{ '/contact/' | relative_url }}">Обговорити запит</a>
         <a class="button secondary" href="{{ site.data.brand.linkedin }}" target="_blank" rel="noopener">Написати в LinkedIn</a>
+        {% if page.telegram_url %}
+          <a class="button secondary" href="{{ page.telegram_url }}" target="_blank" rel="noopener">Написати в Telegram</a>
+        {% endif %}
       </div>
     </div>
   </header>
