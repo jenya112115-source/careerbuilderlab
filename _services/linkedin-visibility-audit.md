@@ -1,8 +1,9 @@
 ---
 title: "LinkedIn Visibility Audit"
 description: "Персональна консультація, яка дає чітке розуміння сильних і слабких сторін LinkedIn-профілю та покроковий план розвитку особистого бренду."
-price: "2 000 грн"
+price: "4 000 грн"
 format: "60 хвилинна персональна консультація"
+telegram_url: "https://t.me/linkedin_go"
 audience: "specialists"
 audience_label: "Для спеціалістів"
 order: 1
