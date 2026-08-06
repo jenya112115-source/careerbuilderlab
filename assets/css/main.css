@@ -748,6 +748,35 @@ h3 {
   background: linear-gradient(90deg, transparent, color-mix(in srgb, var(--cyan) 46%, var(--border)), transparent);
 }
 
+.dream-note {
+  width: fit-content;
+  max-width: 100%;
+  margin: 1rem auto 0 !important;
+  padding: .72rem 1rem;
+  border: 1px solid color-mix(in srgb, var(--cyan) 45%, var(--border));
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--cyan) 12%, transparent), transparent 68%),
+    var(--surface);
+  color: var(--text);
+  font-weight: 900;
+  box-shadow: 0 16px 42px color-mix(in srgb, var(--cyan) 10%, transparent);
+}
+
+.dream-note a {
+  display: inline-flex;
+  margin-left: .18rem;
+  padding: .12rem .48rem;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--cyan) 18%, var(--surface-muted));
+  color: color-mix(in srgb, var(--cyan) 68%, var(--text));
+  text-decoration: none;
+}
+
+.dream-note a:hover {
+  transform: translateY(-1px);
+}
+
 .premium-grid {
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 270px), 1fr));
 }
