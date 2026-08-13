@@ -22,18 +22,24 @@ layout: default
   <div class="article-body container narrow">
     {{ content }}
 
-    <aside class="resource-ai-summary" aria-label="Короткий зміст матеріалу">
-      <p class="eyebrow">Коротко</p>
-      <p>{{ page.summary | default: page.description }}</p>
-      {% if page.key_takeaways %}
-        <h2>Головні висновки</h2>
-        <ul>
-          {% for takeaway in page.key_takeaways %}
-            <li>{{ takeaway }}</li>
-          {% endfor %}
-        </ul>
-      {% endif %}
-    </aside>
+    {% unless page.hide_ai_summary %}
+      <aside class="resource-ai-summary" aria-label="Короткий зміст матеріалу">
+        <p class="eyebrow">Коротко</p>
+        {% if page.summary and page.summary != "" %}
+          <p>{{ page.summary }}</p>
+        {% elsif page.key_takeaways == nil or page.key_takeaways.size == 0 %}
+          <p>{{ page.description }}</p>
+        {% endif %}
+        {% if page.key_takeaways %}
+          <h2>Головні висновки</h2>
+          <ul>
+            {% for takeaway in page.key_takeaways %}
+              <li>{{ takeaway }}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </aside>
+    {% endunless %}
 
     <aside class="related-materials">
       <h2>Вам також може допомогти</h2>
