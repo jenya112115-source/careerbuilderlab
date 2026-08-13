@@ -2464,6 +2464,145 @@ h3 {
   font-weight: 900;
 }
 
+.beginners-resource .beginner-inline-image {
+  margin: 1.6rem 0 2rem;
+}
+
+.beginners-resource .beginner-inline-image img {
+  display: block;
+  width: 100%;
+  border: 1px solid color-mix(in srgb, var(--cyan) 24%, var(--border));
+  border-radius: 8px;
+  background: var(--surface-muted);
+  box-shadow: 0 18px 46px rgba(15, 23, 42, .08);
+}
+
+.beginners-resource .beginner-inline-image figcaption {
+  max-width: 46rem;
+  margin: .7rem auto 0;
+  color: var(--text-muted);
+  font-size: .92rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.beginners-resource .beginner-start-callout {
+  border-left-color: var(--green);
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--green) 12%, transparent), transparent 64%),
+    var(--surface);
+}
+
+.beginners-resource .beginner-cyan-callout {
+  border-left-color: var(--cyan);
+}
+
+.beginners-resource .beginner-green-callout {
+  border-left-color: var(--green);
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--green) 11%, transparent), transparent 64%),
+    var(--surface);
+}
+
+.beginners-resource .beginner-violet-callout {
+  border-left-color: var(--violet);
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--violet) 10%, transparent), transparent 64%),
+    var(--surface);
+}
+
+.beginners-resource .beginner-red-callout {
+  border-left-color: #ef4444;
+  background:
+    linear-gradient(135deg, color-mix(in srgb, #ef4444 9%, transparent), transparent 64%),
+    var(--surface);
+}
+
+.beginners-resource .beginner-framework-callout,
+.beginners-resource .beginner-final-callout {
+  margin: 2rem 0;
+}
+
+.beginners-resource .beginner-framework-callout .button {
+  margin-top: .35rem;
+}
+
+.beginner-mistakes-grid,
+.beginner-product-grid {
+  display: grid;
+  gap: 1rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.beginner-mistakes-grid {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.beginner-mistake-card,
+.beginner-product-card {
+  border: 1px solid color-mix(in srgb, var(--cyan) 28%, var(--border));
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--cyan) 8%, transparent), transparent 66%),
+    var(--surface);
+  box-shadow: 0 14px 34px rgba(15, 23, 42, .055);
+}
+
+.beginner-mistake-card {
+  padding: clamp(1rem, 2.4vw, 1.25rem);
+}
+
+.beginner-mistake-card h3,
+.beginner-product-card h3 {
+  margin-top: 0;
+  color: var(--text);
+  font-size: 1.05rem;
+  line-height: 1.35;
+}
+
+.beginner-mistake-card ul,
+.beginner-product-card ul {
+  margin-bottom: 0;
+}
+
+.beginner-product-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.beginner-product-card {
+  padding: clamp(1.1rem, 2.5vw, 1.45rem);
+}
+
+.beginner-product-card h3 span {
+  display: block;
+  margin-top: .25rem;
+  color: var(--text-muted);
+  font-size: .88rem;
+  font-weight: 800;
+}
+
+.beginner-product-card a {
+  color: inherit;
+}
+
+.beginner-product-frame {
+  border-color: color-mix(in srgb, var(--violet) 38%, var(--border));
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--violet) 13%, transparent), transparent 68%),
+    var(--surface);
+}
+
+.beginner-product-strategy {
+  border-color: color-mix(in srgb, var(--cyan) 38%, var(--border));
+}
+
+.beginner-product-base {
+  border-color: color-mix(in srgb, var(--green) 36%, var(--border));
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--green) 11%, transparent), transparent 68%),
+    var(--surface);
+}
+
 .premium-access-callout {
   border-color: color-mix(in srgb, var(--product-accent, var(--violet)) 42%, var(--border));
   border-left-color: var(--product-accent, var(--violet));
@@ -3470,6 +3609,10 @@ h3 {
 }
 
 @media (max-width: 880px) {
+  .beginner-product-grid {
+    grid-template-columns: 1fr;
+  }
+
   .nav-toggle {
     display: block;
   }
