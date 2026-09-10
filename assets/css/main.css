@@ -601,10 +601,15 @@ h3 {
   min-height: 300px;
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 
 .knowledge-card h2,
 .product-card h2 {
+  text-align: center;
+}
+
+.knowledge-card > p:not(.eyebrow) {
   text-align: center;
 }
 
@@ -2617,6 +2622,149 @@ h3 {
   background: color-mix(in srgb, var(--cyan) 16%, transparent);
   color: var(--text);
   font-weight: 800;
+}
+
+.best-time-resource .timing-article-image {
+  margin: 1.65rem 0 2rem;
+}
+
+.best-time-resource .timing-article-image img {
+  width: 100%;
+  border: 1px solid color-mix(in srgb, var(--cyan) 30%, var(--border));
+  border-radius: 8px;
+  background: var(--surface-muted);
+  box-shadow: 0 18px 44px rgba(15, 23, 42, .08);
+}
+
+.best-time-resource .timing-article-image figcaption {
+  margin-top: .65rem;
+  color: var(--text-muted);
+  font-size: .92rem;
+  text-align: center;
+}
+
+.timing-highlight {
+  display: inline-block;
+  padding: .08rem .34rem;
+  border: 1px solid color-mix(in srgb, var(--cyan) 28%, transparent);
+  border-radius: 5px;
+  background: color-mix(in srgb, var(--cyan) 12%, transparent);
+  color: var(--text);
+  font-weight: 850;
+  line-height: 1.35;
+  transition: background .2s ease, border-color .2s ease, box-shadow .2s ease, transform .2s ease;
+}
+
+@media (hover: hover) {
+  .timing-highlight:hover {
+    transform: translateY(-1px);
+    border-color: color-mix(in srgb, var(--cyan) 68%, var(--border));
+    background: color-mix(in srgb, var(--cyan) 22%, transparent);
+    box-shadow: 0 7px 16px color-mix(in srgb, var(--cyan) 16%, transparent);
+  }
+}
+
+.timing-stat-grid,
+.timing-window-grid {
+  display: grid;
+  gap: 1rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.timing-stat-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.timing-stat-grid article,
+.timing-window-grid article {
+  padding: clamp(1rem, 2.4vw, 1.35rem);
+  border: 1px solid color-mix(in srgb, var(--cyan) 30%, var(--border));
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--cyan) 9%, transparent), transparent 68%),
+    var(--surface);
+  box-shadow: 0 12px 30px rgba(15, 23, 42, .055);
+}
+
+.timing-stat-grid strong {
+  display: block;
+  color: var(--cyan);
+  font-size: clamp(1.55rem, 4vw, 2.2rem);
+  line-height: 1.1;
+}
+
+.timing-stat-grid span,
+.timing-window-grid span {
+  display: block;
+  margin-top: .42rem;
+  color: var(--text-muted);
+  font-size: .92rem;
+  font-weight: 700;
+}
+
+.timing-window-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.timing-window-grid article:last-child {
+  border-color: color-mix(in srgb, var(--violet) 32%, var(--border));
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--violet) 10%, transparent), transparent 68%),
+    var(--surface);
+}
+
+.timing-window-grid strong {
+  display: block;
+  margin-top: .35rem;
+  color: var(--text);
+  font-size: clamp(1.12rem, 2.6vw, 1.4rem);
+  line-height: 1.25;
+}
+
+.timing-window-grid p {
+  margin: .55rem 0 0;
+}
+
+.best-time-resource .article-body > h2 + h3 {
+  margin-top: 2.2rem;
+}
+
+.best-time-resource .timing-key-callout {
+  border-left-color: var(--cyan);
+}
+
+.best-time-resource .timing-framework-callout {
+  border-left-color: var(--violet);
+}
+
+.best-time-resource .timing-system-callout {
+  border-left-color: var(--blue);
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--blue) 11%, transparent), transparent 62%),
+    var(--surface);
+}
+
+.best-time-resource .timing-final-callout {
+  border-left-color: var(--cyan);
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--cyan) 14%, transparent), transparent 62%),
+    var(--surface);
+}
+
+@media (max-width: 620px) {
+  .timing-stat-grid,
+  .timing-window-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .best-time-resource .article-body table {
+    font-size: .92rem;
+  }
+
+  .best-time-resource .article-body th,
+  .best-time-resource .article-body td {
+    padding: .75rem .65rem;
+  }
 }
 
 .mistake-card-list {
