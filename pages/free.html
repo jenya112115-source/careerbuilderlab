@@ -21,7 +21,7 @@ description: "Матеріали про LinkedIn, алгоритми, видим
     <div class="card-grid knowledge-grid">
       {% assign resources = site.resources | sort: "order" %}
       {% for resource in resources %}
-        <article class="card knowledge-card">
+        <article class="card knowledge-card{% if forloop.index > 6 %} knowledge-card-extra{% endif %}">
           {% if resource.card_image %}
             <img class="card-cover" src="{{ resource.card_image | relative_url }}" alt="">
           {% else %}
@@ -33,6 +33,9 @@ description: "Матеріали про LinkedIn, алгоритми, видим
           <a class="button secondary" href="{{ resource.url | relative_url }}">Читати</a>
         </article>
       {% endfor %}
+    </div>
+    <div class="knowledge-show-all">
+      <button class="button primary product-gradient-link" type="button" data-knowledge-show-all aria-expanded="false">ПОКАЗАТИ ВСІ</button>
     </div>
   </div>
 </section>
