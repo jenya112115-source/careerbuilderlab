@@ -58,6 +58,30 @@
     });
   });
 
+  document.querySelectorAll('[data-knowledge-show-all]').forEach(function (button) {
+    var defaultText = button.textContent;
+    var expandedText = button.getAttribute('data-expanded-text') || 'СКРИТИ';
+
+    button.addEventListener('click', function () {
+      var cards = document.querySelectorAll('.knowledge-card-extra');
+      var isExpanded = button.getAttribute('aria-expanded') === 'true';
+
+      cards.forEach(function (card) {
+        card.classList.toggle('is-visible', !isExpanded);
+      });
+
+      button.setAttribute('aria-expanded', String(!isExpanded));
+      button.textContent = isExpanded ? defaultText : expandedText;
+
+      if (isExpanded) {
+        var freeSection = document.querySelector('#free-materials');
+        if (freeSection) {
+          freeSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      }
+    });
+  });
+
   document.querySelectorAll('[data-product-preview-modal]').forEach(function (modal) {
     var openButton = document.querySelector('[data-product-preview-open]');
     var closeButtons = modal.querySelectorAll('[data-product-preview-close]');
