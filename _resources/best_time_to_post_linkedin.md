@@ -13,7 +13,7 @@ key_takeaways:
   - "Час працює разом із темою, форматом і першими 60-90 хвилинами реакцій."
 author: "Євгеній Гребіненко"
 updated: 2026-09-10
-order: 9
+order: 10
 permalink: /free/best.time/
 resource_class: "best-time-resource"
 ---

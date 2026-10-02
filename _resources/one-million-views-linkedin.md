@@ -20,7 +20,7 @@ key_takeaways:
 
 type: "Експеримент"
 
-order: 2
+order: 9
 
 ---
 
