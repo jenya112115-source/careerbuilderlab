@@ -7,6 +7,9 @@ payment_url: "https://secure.wayforpay.com/payment/truecontent"
 accent: "#00A6C8"
 order: 7
 featured_home: true
+permalink: /products/content-system/
+redirect_from:
+  - /products/linkedin-content-system/
 screenshots:
   - image: "/assets/images/products/linkedin-content-system_1.webp"
     title: "50 тем і промпти"
