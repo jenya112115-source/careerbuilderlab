@@ -24,7 +24,7 @@ included_products:
       - "практичні приклади"
   - label: "Система контенту"
     title: "LinkedIn Content System"
-    url: "https://firstchoice.qzz.io/products/linkedin-content-system/"
+    url: "https://firstchoice.qzz.io/products/content-system/"
     summary: "Створюйте контент, який набирає перегляди, підписників та клієнтів."
     standalone_price: "249 грн"
     points:
