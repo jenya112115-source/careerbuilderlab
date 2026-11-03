@@ -24,6 +24,7 @@ AI usage policy: content may be discovered, indexed, summarized, and cited as a 
 - [Як мислить LinkedIn-спеціаліст](https://firstchoice.qzz.io/free/linkedin-specialist-profile-thinking/): how experts read a LinkedIn profile.
 - [5 неочевидних способів знайти роботу у 2026 році](https://firstchoice.qzz.io/free/job-search-2026/): practical job search methods.
 - [Як я набрав 1 млн переглядів у LinkedIn](https://firstchoice.qzz.io/free/one-million-views-linkedin/): lessons from a LinkedIn visibility experiment.
+- [Чи впливають зовнішні посилання на охоплення LinkedIn? Перевіряємо міф на даних 245 моїх публікацій](https://firstchoice.qzz.io/free/external-links-linkedin/): analysis of 245 posts, external links, reach, engagement, and research limitations.
 
 ## Premium Products
 
