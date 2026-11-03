@@ -14,7 +14,9 @@ key_takeaways:
 author: "Євгеній Гребіненко"
 updated: 2026-11-02
 order: 11
-permalink: /free/external-links-linkedin/
+permalink: /free/external-links/
+redirect_from:
+  - /free/external-links-linkedin/
 resource_class: "external-links-resource"
 ---
 
