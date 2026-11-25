@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<article class="article">
+<article class="article{% if page.resource_class %} {{ page.resource_class }}{% endif %}">
   <header class="article-header container narrow">
     <a class="back-link" href="{{ '/blog/' | relative_url }}">← До блогу</a>
     <p class="eyebrow">{{ page.category | default: "Блог" }}</p>
@@ -27,3 +27,4 @@ layout: default
   </div>
 </article>
 {% include cta.html %}
+
